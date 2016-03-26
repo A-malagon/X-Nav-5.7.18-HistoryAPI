@@ -16,7 +16,7 @@ function swapPhoto(href) {
   }
   return false;
 }
-
+ 
 function addClicker(link) {
   link.addEventListener("click", function(e) {
     if (swapPhoto(link.href)) {
@@ -40,4 +40,6 @@ window.onload = function() {
     }, false);
   }, 1);
 }
+
+
 
